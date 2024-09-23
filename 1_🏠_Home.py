@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 if "data" not in st.session_state:
-    df_data = pd.read_csv("datasets\CLEAN_FIFA23_official_data.csv", index_col=0)
+    df_data = pd.read_csv("datasets/CLEAN_FIFA23_official_data.csv", index_col=0)
     st.session_state["data"] = df_data
 
 st.markdown("# JOGADORES FUTEBOL 2023! ⚽")
